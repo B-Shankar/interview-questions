@@ -24,8 +24,12 @@ public class FractionalKnapsack {
             items[i][1] = wt[i];
         }
 
+        System.out.println("2D Array: " + Arrays.deepToString(items));
+
         // Sort items based on value-to-weight ratio in descending order
         Arrays.sort(items, new ItemComparator());
+
+        System.out.println("Sorted Array: " + Arrays.deepToString(items));
 
         double res = 0.0;
         int currentCapacity = capacity;
@@ -53,6 +57,8 @@ public class FractionalKnapsack {
 
     // Comparison function to sort items based on value/weight ratio
     static class ItemComparator implements Comparator<int[]> {
+
+        @Override
         public int compare(int[] a, int[] b) {
             double a1 = (1.0 * a[0]) / a[1];
             double b1 = (1.0 * b[0]) / b[1];
