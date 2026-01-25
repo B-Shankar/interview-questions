@@ -2,7 +2,7 @@ package collections_problems;
 
 import java.util.*;
 
-// Q5. Group Anagrams
+// Q5. Group Anagrams [MEDIUM]
 
 //Input: ["eat","tea","tan","ate","nat","bat"]
 //Output:
