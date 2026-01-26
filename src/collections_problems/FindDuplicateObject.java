@@ -12,6 +12,7 @@ package collections_problems;
 */
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 class Employee {
     int id;
@@ -63,6 +64,17 @@ public class FindDuplicateObject {
         return result;
     }
 
+    public static List<Employee> duplicates(List<Employee> list) {
+        List<Employee> duplicates =
+                list.stream()
+                        .collect(Collectors.groupingBy(e -> e.id))
+                        .values().stream()
+                        .filter(g -> g.size() > 1)
+                        .flatMap(List::stream)
+                        .toList();
+
+        return duplicates;
+    }
 
     public static void main(String[] args) {
 
@@ -78,8 +90,10 @@ public class FindDuplicateObject {
 
         List<Employee> duplicates = findDuplicatesById(employees);
         List<Employee> dups = findAllDuplicateEmployees(employees);
+        List<Employee> dupsA = duplicates(employees);
 
         System.out.println("Duplicates by id: " + duplicates);
         System.out.println("Duplicates by id: " + dups);
+        System.out.println("Duplicates by id: " + dupsA);
     }
 }
