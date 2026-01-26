@@ -44,6 +44,26 @@ public class FindDuplicateObject {
         return duplicates;
     }
 
+    public static List<Employee> findAllDuplicateEmployees(List<Employee> list) {
+
+        Map<Integer, List<Employee>> map = new HashMap<>();
+
+        for (Employee e : list) {
+            map.computeIfAbsent(e.id, k -> new ArrayList<>()).add(e);
+        }
+
+        List<Employee> result = new ArrayList<>();
+
+        for (List<Employee> group : map.values()) {
+            if (group.size() > 1) {
+                result.addAll(group);
+            }
+        }
+
+        return result;
+    }
+
+
     public static void main(String[] args) {
 
         List<Employee> employees = new ArrayList<>();
@@ -57,7 +77,9 @@ public class FindDuplicateObject {
         System.out.println("Input: " + employees);
 
         List<Employee> duplicates = findDuplicatesById(employees);
+        List<Employee> dups = findAllDuplicateEmployees(employees);
 
         System.out.println("Duplicates by id: " + duplicates);
+        System.out.println("Duplicates by id: " + dups);
     }
 }
