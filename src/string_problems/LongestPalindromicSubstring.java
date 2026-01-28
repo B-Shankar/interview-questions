@@ -1,4 +1,4 @@
-package collections_problems.string_problems;
+package string_problems;
 
 // 5. Longest Palindromic Substring
 public class LongestPalindromicSubstring {
