@@ -16,6 +16,7 @@ public class StringToInteger {
 
         if (i < length && (s.charAt(i) == '+' || s.charAt(i) == '-')) {
             sign = (s.charAt(i) == '-') ? -1 : +1 ;
+            i++;
         }
 
         while (i < length && Character.isDigit(s.charAt(i))) {
