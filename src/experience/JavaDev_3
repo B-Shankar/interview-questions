@@ -1,0 +1,41 @@
+Java Regular interview coding Question.
+
+1) To create RESTful endpoints in Spring Boot for fetching all active consumers and saving a new consumer
+2) An LRU (Least Recently Used) Cache in Java 8
+3) Java 8 program to print a Fibonacci sequence using recursion
+4) To find the second highest number in an array using Java 8
+5) Java Code to swap two numbers using arithmetic operators
+6) To print unique characters in a string using Java 8
+7) Sorting a Map in Java 8
+8) recursive method to calculate the factorial of a number:
+9) track palindromes from a list of strings in Java 8,
+10) find the smallest and largest element in an array
+11) Sorting a HashMap by its values in Java 8
+12) count the occurrence of each character in a string using Hashmap
+13) Write a Java program to find elements in an array that start with the digit 1.
+14)find the second highest number in an array in Java
+15) convert this list to a map? 1, 1, 2, 3, 3, 4, 5, 5, 6, 6} java 8
+16) Java 8 program that builds both prefix and postfix from the infix expression
+17) find the missing number in an array using Java 8,
+18) Given an integer array, find sum and average of all elements
+19) Write a Java program to check if the given number is a prime number
+20) To check if a string is a palindrome in Java 8
+21) Lexicographical top four high paid salary employee names
+22) Anagram sorting program in Java 8
+23) Reverse a String using Java & Stream API
+24) Using Java 8 Streams (for collections of strings):
+25) Sorting data in Java 8 without importing java.util.*
+26) Implement a Queue using Two Stacks.
+27) Java 8 program to map integers to their squares and print results.
+28) java 8 program to group strings by their lengths and print the groups
+29) All Stream Methods
+30) Singleton Design patten
+31). Write a program to print employees count working in each department
+32. Write a program to print employee details working in each department
+33) Vowels Count within a String using : Java 8 Streams
+34) Java 8 program to filter and print even numbers from a list.
+35) find the longest String from given array
+36) find second highest number from given array
+37) find the first non repeat element from a String
+38) find all Duplicates element from a given String
+39) java program to count the occurrence of each character in String

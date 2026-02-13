@@ -1,0 +1,41 @@
+Hi everyone, I'm sharing my recent hashtag#interview experience for a hashtag#JavaDeveloper role (Java, Spring Boot, Microservices).
+The interview started with a brief introduction about myself and my current project. After that, questions were mostly based on core hashtag#Java, hashtag#Spring, and hashtag#Microservices.
+
+hashtag#Spring & Dependency Injection
+
+They asked what designpatterns I am using in my project. Then questions moved to Dependency Injection what it is and different ways to inject beans in Spring. They also asked which injection is recommended and why.
+I was asked about the bean life cycle, bean scopes, and the default bean scope.
+They also asked the difference between ApplicationContext and Spring Context, and what the @Configuration annotation is.
+
+hashtag#Microservices & Communication
+
+Questions were asked on how microservices communicate with each other.
+They asked about RestTemplate and WebClient.
+They also asked if I know about Feign Client and why it is not recommended for production use in some cases.
+
+hashtag#CoreJava & hashtag#Multithreading
+
+From core Java, they asked about the volatile keyword.
+Then questions on multithreading like how to create a thread and whether I have created threads in my project.
+Here the discussion was more around the idea that in real production applications, we usually don't create threads manually.
+
+hashtag#Collections & Data Structures
+
+They asked about the internal working of HashMap.
+Difference between Collection and Collections was also asked.
+
+hashtag#Coding Questions
+
+I was asked to write a program to count character frequency and print it in ascending order.
+Another program was to print all substrings of a given string.
+
+SQL
+
+At the end, they asked a basic SQL query related to data retrieval.
+Overall, the interview focused more on fundamentals, real project usage, and approach to problem-solving rather than just theory.
+
+Hope this helps someone who is preparing for Java interviews.
+All the best to everyone.
+
+Shivraj Hujare
+Software Engineer

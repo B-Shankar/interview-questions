@@ -1,0 +1,103 @@
+Preparing for Java Backend Interviews (Coforge L1 / Service-Based Companies)?
+
+These are real interview questions — not fancy buzzwords.
+
+Interviewers repeat them because they test fundamentals, clarity, and real-world thinking.
+
+If you can explain why these concepts exist (not just definitions), you're already ahead of many candidates.
+
+Core Java (Foundations Matter)
+
+1)What is OOP and its principles?
+2)Abstract class vs Interface
+3)Immutable class - why & how to create?
+4) == vs equals
+5)hashCode () - why is it important?
+6)Comparable vs Comparator
+7)Aggregation vs Composition
+8)final vs finally vs finalize
+9)volatile keyword - where & why used?
+10)sleep() vs wait() vs notify()
+11)ClassLoader and its types
+12)ArrayList vs LinkedList (time complexity)
+
+Java 8 & Concurrency (Frequently Asked)
+
+Java 8 features
+Stream API - why introduced?
+map() vs flatMap ()
+Optional - what problem does it solve?
+Future vs CompletableFuture
+How CompletableFuture works internally
+Synchronous vs Asynchronous execution
+
+Spring / Spring Boot (Interview Favorite)
+
+What is Spring Boot?
+What does @SpringBootApplication do internally?
+Stereotype annotations
+@Controller vs @RestController
+Spring MVC flow (behind the scenes)
+DispatcherServlet role
+Exception handling in Spring Boot @ControllerAdvice vs @ExceptionHandler
+Bean scopes
+Dependency Injection — why it matters
+
+JPA / Hibernate (Real Project Questions)
+
+What is JPA?
+JPA vs Hibernate
+EntityManager role save () vs persist)
+@Id & @GeneratedValue delete vs truncate vs drop
+How transactions work in JPA
+Multiple database configuration
+
+Microservices (High-Level + Practical)
+
+What is Microservice architecture?
+Benefits & challenges
+Service Registry
+Feign vs RestTemplate vs WebClient
+Feign vs Kafka
+API Gateway role
+Rate limiting strategies
+Circuit Breaker
+Saga pattern
+Choreography vs Orchestration
+2PC - why it's not preferred
+
+Kafka / Messaging Systems
+
+What is Kafka?
+Producer-Consumer flow
+Topic, Partition, Offset
+Fault tolerance in Kafka
+Kafka vs RabbitMQ
+
+Database / System Design Basics
+
+CAP theorem
+ACID properties
+SQL join types
+Index types & when to use them
+How Redis works internally
+What happens if Redis goes down?
+
+Design Patterns (Concept + Use Case)
+
+Singleton pattern
+How to break Singleton
+Builder pattern
+Proxy pattern
+
+Misc (Often Ignored, Still Asked)
+
+12-Factor App principles
+XML vs JSON
+XML Schema vs DTD
+Components of XML Schema
+
+Interview Tip
+
+Interviewers don't expect perfect answers.
+They expect clarity, trade-offs, and real-world reasoning.
