@@ -1,0 +1,29 @@
+Java Collections — What Interviewers Actually Check
+Most people say:
+"I know List, Set, Map."
+Interviewers ask:
+"Do you know how they behave under pressure?"
+Here are real Java Collections questions that expose depth vs surface knowledge:
+1. Why is HashMap preferred over Hashtable even today?
+2. How does HashMap handle collisions internally?
+3. What exactly changed in HashMap after Java 8?
+4. Why does HashSet not allow duplicate elements?
+5. How does ArrayList grow internally?
+6. When does LinkedList perform better than ArrayList?
+7. Difference between Comparable and Comparator - real use case?
+8. Why is ConcurrentHashMap faster than synchronized Map?
+9. What is the cost of resizing a HashMap?
+10. How does TreeMap maintain sorted order?
+11. Can a HashMap key be mutable? What happens if it is?
+12. Difference between fail-fast and fail-safe iterators?
+13. Why is CopyOnWriteArrayList rarely used?
+14. What happens if hashCode() always returns the same value?
+15. How does Collections.synchronizedList work internally?
+16. Why is EnumMap faster than HashMap?
+
+17. Difference between IdentityHashMap and HashMap?
+18. How does WeakHashMap help in memory management?
+19. Why does List allow duplicates but Set doesn't?
+20. How do you choose the right collection in high-scale systems?
+If you've worked on real projects,
+you've already faced half of these without realizing it.
