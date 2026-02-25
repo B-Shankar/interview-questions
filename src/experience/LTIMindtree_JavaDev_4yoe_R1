@@ -1,0 +1,46 @@
+LTIMindtree Java Developer Interview Experience (4 Years Exp.)
+
+One of my friends recently attended a Java Developer interview at LTIMindtree with 4 years of experience.
+
+Sharing the Round 1 - Technical Interview questions that were asked
+
+• Core Java
+Explain OOPS concepts with real-time examples Difference between abstract class vs interface
+Why String is immutable?
+How equals) and hashCode() work internally
+Difference between HashMap vs ConcurrentHashMap
+What is volatile keyword?
+Can we override a static method?
+
+• Java 8 & Functional Programming
+What are functional interfaces?
+Difference between map() vs flatMap()
+Use cases of Stream API
+Program to find 2nd highest number using streams
+Explain Optional and why it is used
+
+• Multithreading & Concurrency
+Difference between Runnable vs Callable
+How ExecutorService works
+What is deadlock and how to avoid it
+Difference between synchronized block vs method
+Basics of CompletableFuture
+
+• Spring / Spring Boot
+Explain IOC & Dependency Injection
+Difference between @Component, @Service, @Repository
+How Spring Boot auto-configuration works
+How @Transactional works internally
+Difference between PUT vs PATCH
+Global exception handling using @ControllerAdvice
+
+• Hibernate / JPA
+Difference between LAZY vs EAGER fetching
+What is N+1 problem?
+Difference between save ), persist), saveAndFlush ()
+Explain 1st level vs 2nd level cache
+
+• SQL
+Query to find 2nd highest salary
+Difference between INNER JOIN VS LEFT JOIN
+What are indexes and their pros/cons
