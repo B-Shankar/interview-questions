@@ -1,0 +1,42 @@
+LTIMindtree Java Developer Interview - Round 2
+
+(Managerial) | 4 Years Exp.
+
+As promised, sharing the Round 2 - Managerial / Techno-Managerial interview experience from one of my friends who interviewed at LTIMindtree for a Java Developer role (4 years experience).
+
+This round focused more on project understanding, problem-solving approach, and team collaboration rather than pure theory.
+
+• Project & Technical Discussion
+Explain your current project architecture end-to-end
+What exactly is your role and responsibilities?
+Biggest technical challenge you faced and how you solved it
+How do you handle production issues / P1 defects?
+What performance improvements have you implemented?
+
+Design & Decision Making
+
+How would you design a scalable REST API?
+How do you handle concurrent user requests?
+How do you ensure application security?
+Experience with microservices architecture
+How do services communicate with each other?
+
+Code Quality & Process
+
+Experience with code reviews - what do you check?
+Al use case in project like copilot for code review, test case generation.
+How do you ensure clean, maintainable code?
+Unit testing experience (JUnit / Mockito basics)
+How do you estimate tasks and meet deadlines?
+
+• Team & Behavioral
+
+How do you handle conflict within the team?
+Experience mentoring junior developers
+Working in Agile/Scrum environment
+How do you handle pressure during tight releases?
+
+Key Insight:
+
+Apply your technical knowledge in real projects.
+Strong project clarity + ownership mindset matters more than memorizing answers.
