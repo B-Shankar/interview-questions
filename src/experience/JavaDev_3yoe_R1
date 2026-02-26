@@ -1,0 +1,43 @@
+Interview Experience: Java Developer
+Experience: 3+years
+
+Round 1: Technical (45 Minutes)
+
+Java 8 and Project-Specific:
+1. What are the new features added in Java 8?
+2. What is Method Reference?
+3. What are Default Methods?
+4. Can you explain Intermediate Operations in Streams?
+5. What is HTTP Status Code 204?
+6. Can you explain the concept of Microservices in your project?
+7. What is Hashmap and hashtable?
+8. Explain the Authentication Layer in your project.
+9. How does JWT work?
+10. What is garbage collector? And how it is used?
+11. Can you explain how you integrate 3rd-party data in your project?
+
+Core Java:
+1. What is Method Hiding?
+2. Output of this -
+System.out.printin(Double.MIN_VALUE > 0.0d);
+3. If you add a null value to an empty Set, what will be the size of the Set?
+4. What is Garbage Collection?
+5. can you override static method in interface?
+6. Internal working of HashMap and what is Get() method?
+7. What is SOLID Principle?
+
+Spring Boot:
+1. @Lazy annotation
+2. @Component annotation
+3. What is Component Scanning?
+4. How to handle exception in Spring Boot?
+5. What is JPA?
+6. Explain about Bean Scope?
+7. @RequestParam
+8. @RequestBody
+9. What is path variable?
+10. What is @Generated Value annotation?
+
+SQL:
+1. You have a user table with 50 records. Write a query to retrieve 20 records starting from the 5th row. The result should include the user's first name and last name.
+2. You have two tables. Write a query using INNER JOIN to retrieve data. You can use any example data for this.
