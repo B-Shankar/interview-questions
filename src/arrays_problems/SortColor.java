@@ -1,8 +1,6 @@
 package arrays_problems;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 
 public class SortColor {
     /*
@@ -10,6 +8,7 @@ public class SortColor {
     Output: [0,0,1,1,2,2]
     */
 
+    // Time Complexity: O(n)
     static int[] sortColor(int[] arr) {
         int n = arr.length;
 
@@ -37,8 +36,29 @@ public class SortColor {
         return arr;
     }
 
+    //Time Complexity: O(n)
+    static int[] sortColorByCounting(int[] arr) {
+        int n = arr.length;
+
+        int[] count = new int[3]; //0, 1, 2
+
+        for (int num : arr) {
+            count[num]++;
+        }
+
+        int index = 0;
+        for (int i = 0; i < 3; i++) {
+            while (count[i]-- > 0) {
+                arr[index++] = i;
+            }
+        }
+
+        return arr;
+    }
+
     public static void main(String[] args) {
         int[] arr = {2,0,2,1,1,0};
-        System.out.println(Arrays.toString(sortColor(arr)));
+//        System.out.println(Arrays.toString(sortColor(arr)));
+        System.out.println(Arrays.toString(sortColorByCounting(arr)));
     }
 }
