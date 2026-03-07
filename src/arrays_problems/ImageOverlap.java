@@ -62,6 +62,20 @@ public class ImageOverlap {
         return count;
     }
 
+    /*
+        n = matrix size (n × n)
+        K = number of 1s in matrix
+
+        K = n²
+
+        Time : O(n² + K²)
+
+
+        Aones → K
+        Bones → K
+        O(K)
+        Space : O(n²)
+    */
     static int largestOverlapOptimised(int[][] A, int[][] B) {
         int n = A.length;
 
