@@ -1,6 +1,15 @@
 package arrays_problems;
 
 // 835. Image Overlap
+
+/*
+    Row shifts = 2n-1
+    Col shifts = 2n-1
+    Matrix scan = n²
+
+    Total: O((2n-1)² * n²)
+            ≈ O(n⁴)
+*/
 public class ImageOverlap {
 
     // nxn
