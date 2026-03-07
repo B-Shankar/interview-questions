@@ -2,6 +2,11 @@ package arrays_problems;
 
 // 835. Image Overlap
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /*
     Row shifts = 2n-1
     Col shifts = 2n-1
@@ -57,11 +62,44 @@ public class ImageOverlap {
         return count;
     }
 
+    static int largestOverlapOptimised(int[][] A, int[][] B) {
+        int n = A.length;
+
+        List<int[]> Aones = new ArrayList<>();
+        List<int[]> Bones = new ArrayList<>();
+
+        // collect coordinates of 1s
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (A[i][j] == 1) Aones.add(new int[]{i, j});
+                if (B[i][j] == 1) Bones.add(new int[]{i, j});
+            }
+        }
+
+        Map<String, Integer> map = new HashMap<>();
+        int max = 0;
+
+        for (int[] a : Aones) {
+            for (int[] b : Bones) {
+                int dx = a[0] - b[0];
+                int dy = a[1] - b[1];
+
+                String key = dx + "," + dy;
+
+                map.put(key, map.getOrDefault(key, 0) + 1);
+                max = Math.max(max, map.get(key));
+            }
+        }
+
+        return max;
+    }
+
     public static void main(String[] args) {
 
         int[][] img1 = {{1,1,0}, {0,1,0}, {0,1,0}};
         int[][] img2 = {{0,0,0}, {0,1,1}, {0,0,1}};
 
         System.out.println(largestOverlap(img1, img2));
+        System.out.println(largestOverlapOptimised(img1, img2));
     }
 }
