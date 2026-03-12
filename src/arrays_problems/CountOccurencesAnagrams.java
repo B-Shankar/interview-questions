@@ -3,7 +3,8 @@ package arrays_problems;
 import java.util.HashMap;
 import java.util.Map;
 
-// Count Occurences of Anagrams
+// GFG: Count Occurences of Anagrams
+// 438. Find All Anagrams in a String
 public class CountOccurencesAnagrams {
 
     static int search(String pat, String txt) {
