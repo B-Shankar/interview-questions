@@ -1,6 +1,8 @@
 package arrays_problems;
 
+import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Deque;
 
 // 239. Sliding Window Maximum
 public class SlidingWindowMaximum {
@@ -43,10 +45,42 @@ public class SlidingWindowMaximum {
         return result;
     }
 
+    static public int[] maxSlidingWindowOptimised(int[] nums, int k) {
+
+        int n = nums.length;
+        int[] result = new int[n - k + 1];
+
+        Deque<Integer> dq = new ArrayDeque<>();
+        int idx = 0;
+
+        for (int j = 0; j < n; j++) {
+
+            // remove smaller elements
+            while (!dq.isEmpty() && nums[dq.peekLast()] < nums[j]) {
+                dq.pollLast();
+            }
+
+            dq.offerLast(j);
+
+            // remove elements outside window
+            if (dq.peekFirst() <= j - k) {
+                dq.pollFirst();
+            }
+
+            // window formed
+            if (j >= k - 1) {
+                result[idx++] = nums[dq.peekFirst()];
+            }
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
         int[] nums = {1,3,-1,-3,5,3,6,7};
         int k = 3;
 
         System.out.println(Arrays.toString(maxSlidingWindow(nums, k)));
+        System.out.println(Arrays.toString(maxSlidingWindowOptimised(nums, k)));
     }
 }
